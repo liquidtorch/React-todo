@@ -12,7 +12,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "lint": "tslint -p . --fix"
+    "lint": "tslint -p . -t stylish; tslint -p . --fix"
   },
   "eslintConfig": {
     "extends": "react-app"
